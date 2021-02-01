@@ -13,7 +13,7 @@ tpl2 = cv2.imread('Desktop/interview/CV Test/Small_area.png', 0)
 def find_image(img, template):
 
   w, h = template.shape[::-1]
-  img = img2.copy()
+  #img = img2.copy()
   method = eval('cv2.TM_SQDIFF')
   res = cv2.matchTemplate(img,template,method)
   if res.any():
