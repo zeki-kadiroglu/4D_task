@@ -35,7 +35,7 @@ def find_image(img, template):
   
 
 #For rotated image
-find_image(image2,tpl)
+print(find_image(image2,tpl))
 
 #For normal image
-find_image(image2,tpl2)
+print(find_image(image2,tpl2))
